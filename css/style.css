@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+h1 {
+  margin: 40px auto 0 auto;
+  color: #888888;
+  font-size: 4.625rem;
+  font-family: 'Parisienne', cursive;
+}
+
+h2 {
+  color: #888888;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.7rem;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #888888;
+}
+
+span {
+  text-decoration: underline;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  margin: 100px auto;
+  width: 20%;
+  border: dashed #f0f0f5 2px;
+  border-radius: 50%;
+}
+
+.top-container {
+  padding-top: 60px;
+  background-color: #f0f0f0;
+  position: relative;
+  width: 100%;
+
+}
+
+
+.hoodie-img {
+  width: 15vw;
+  border-radius:
+}
+
+.devTop-img {
+  width: 5vw;
+  position: absolute;
+  right: 19.5%;
+  top: 200px;
+}
+
+.devBot-img {
+  width: 5vw;
+  position: absolute;
+  bottom: 200px;
+  left: 27%;
+}
+
+.desk-img {
+  width: 25vw;
+}
+
+.middle-container {
+  margin: 50px 0;
+}
+
+.profile-text {
+  width: 30%;
+  margin: auto;
+  text-align: justify;
+}
+
+.skill-row {
+  text-align: justify;
+  margin: 50px auto 50px auto;
+  width: 50%;
+}
+
+.skill-img, .react-img {
+  width: 25%;
+  float: left;
+  margin-right: 1vw;
+}
+
+.node-img {
+  width: 25%;
+  float: right;
+  margin-left: 1vw;
+}
+
+.contact-me {
+  width: 50%;
+  margin: 100px auto 100px auto;
+}
+
+.bottom-container {
+  background-color: #888888;
+  padding-top: 50px;
+}
+
+.copyRight {
+  color: #ffe8df;
+  font-size: 0.75rem;
+  padding: 20px 0;
+  margin-bottom: 0;
+}
+
+.footer-link {
+  margin-right: 20px;
+}
+
+.myButton {
+  margin-top: 30px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+	background-color:#888888;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+	border-radius:7px;
+	border:1px solid #ffe8df;
+	display: inline-block;
+	cursor:pointer;
+	color:#ffe8df;
+	font-size: .8rem;
+	padding: .75rem 2rem .75rem 2rem;;
+	text-decoration:none;
+	text-shadow:0 1px 0 #888888;
+}
+.myButton:hover {
+	background-color:#ffe8df;
+  color:#888888;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
